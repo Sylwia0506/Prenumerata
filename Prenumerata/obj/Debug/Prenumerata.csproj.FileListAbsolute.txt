@@ -1,0 +1,15 @@
+C:\Users\HP\Source\Repos\Prenumerata\Prenumerata\bin\Debug\Prenumerata.exe.config
+C:\Users\HP\Source\Repos\Prenumerata\Prenumerata\bin\Debug\Prenumerata.exe
+C:\Users\HP\Source\Repos\Prenumerata\Prenumerata\bin\Debug\Prenumerata.pdb
+C:\Users\HP\Source\Repos\Prenumerata\Prenumerata\obj\Debug\Prenumerata.csproj.AssemblyReference.cache
+C:\Users\HP\Source\Repos\Prenumerata\Prenumerata\obj\Debug\MainWindow.g.cs
+C:\Users\HP\Source\Repos\Prenumerata\Prenumerata\obj\Debug\App.g.cs
+C:\Users\HP\Source\Repos\Prenumerata\Prenumerata\obj\Debug\Prenumerata_MarkupCompile.cache
+C:\Users\HP\Source\Repos\Prenumerata\Prenumerata\obj\Debug\Prenumerata_MarkupCompile.lref
+C:\Users\HP\Source\Repos\Prenumerata\Prenumerata\obj\Debug\MainWindow.baml
+C:\Users\HP\Source\Repos\Prenumerata\Prenumerata\obj\Debug\Prenumerata.g.resources
+C:\Users\HP\Source\Repos\Prenumerata\Prenumerata\obj\Debug\Prenumerata.Properties.Resources.resources
+C:\Users\HP\Source\Repos\Prenumerata\Prenumerata\obj\Debug\Prenumerata.csproj.GenerateResource.cache
+C:\Users\HP\Source\Repos\Prenumerata\Prenumerata\obj\Debug\Prenumerata.csproj.CoreCompileInputs.cache
+C:\Users\HP\Source\Repos\Prenumerata\Prenumerata\obj\Debug\Prenumerata.exe
+C:\Users\HP\Source\Repos\Prenumerata\Prenumerata\obj\Debug\Prenumerata.pdb

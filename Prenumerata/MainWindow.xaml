@@ -1,0 +1,100 @@
+﻿<Window x:Class="Prenumerata.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prenumerata"
+        mc:Ignorable="d"
+        Title="Prenumerata" Height="450" Width="800" FontSize="15">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="2.2*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.8*"/>
+                <ColumnDefinition Width="9.9*"/>
+                <ColumnDefinition Width="0.9*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" Margin="5,5" >Zamawiający:</Label>
+            <TextBox Grid.Column="1" Margin="3,3" VerticalContentAlignment="Center"></TextBox>
+            <Button Grid.Column="2" Margin="3,3" Padding="5,5">...</Button>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.8*"/>
+                <ColumnDefinition Width="7*"/>
+            </Grid.ColumnDefinitions>
+            <GroupBox Header="Rodzaj prenumeraty" Grid.Column="0" Margin="5,5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <RadioButton Margin="5">Trzymiesięczna</RadioButton>
+                    <RadioButton Margin="5" IsChecked="True" Grid.Row="1">Półroczna</RadioButton>
+                    <RadioButton Margin="5" Grid.Row="2">Roczna</RadioButton>
+                    <RadioButton Margin="5" Grid.Row="3">Dwuletnia</RadioButton>
+                </Grid>
+            </GroupBox>
+            <GroupBox Header="Adres" Grid.Column="1" Margin="5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="1.4*"/>
+                        <ColumnDefinition Width="6*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">Ulica:</Label>
+                    <Label Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">Kod:</Label>
+                    <Label Grid.Row="2" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center">Poczta:</Label>
+                    <TextBox Margin="5" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="4"  VerticalContentAlignment="Center"></TextBox>
+                    <TextBox Margin="5" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4"  VerticalContentAlignment="Center"></TextBox>
+                    <TextBox Margin="5" Grid.Row="2" Grid.Column="2"  VerticalContentAlignment="Center"></TextBox>
+                    <TextBox Margin="5" Grid.Row="2" Grid.Column="4"  VerticalContentAlignment="Center"></TextBox>
+                </Grid>
+            </GroupBox>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2.7*"/>
+                <ColumnDefinition Width="5.5*"/>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="7.5*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" Margin="5">Zgoda na:</Label>
+            <CheckBox VerticalContentAlignment="Center" Grid.Column="1" IsChecked="True" Margin="3">przetwarzanie danych</CheckBox>
+            <CheckBox VerticalContentAlignment="Center" Grid.Column="2" Margin="3">otrzymywanie ofert</CheckBox>
+        </Grid>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.9*"/>
+                <ColumnDefinition Width="7*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" Margin="5">Uwagi:</Label>
+            <TextBox Grid.Column="1" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" Margin="3"></TextBox>
+        </Grid>
+        <Grid Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="1.2*"/>
+                <ColumnDefinition Width="1.5*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="1" Margin="5,5" Padding="5">OK</Button>
+            <Button Grid.Column="2" Margin="5,5" Padding="5">Anuluj</Button>
+        </Grid>
+    </Grid>
+</Window>
