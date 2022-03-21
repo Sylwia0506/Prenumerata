@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Prenumerata"
         mc:Ignorable="d"
-        Title="Prenumerata" Height="450" Width="800" FontSize="15">
+        Title="Prenumerata" Height="440" Width="700" FontSize="12">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>
@@ -52,8 +52,8 @@
                         <RowDefinition/>
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="1.1*"/>
+                        <ColumnDefinition Width="1.1*"/>
                         <ColumnDefinition Width="2*"/>
                         <ColumnDefinition Width="1.4*"/>
                         <ColumnDefinition Width="6*"/>
